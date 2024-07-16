@@ -31,3 +31,9 @@ Verificação da Instalação
 Para verificar se as bibliotecas foram instaladas corretamente, você pode usar o comando pip list para listar todas as bibliotecas instaladas no seu ambiente Python:
 pip list
 
+O arquivo .pkl contém o modelo de Machine Learning treinado para utilizar basta seguir as orientações abaixo:
+installar requirements.txt
+
+# Carregar o modelo salvo
+modelo_carregado = joblib.load(joblib_file)
+
